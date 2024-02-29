@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Misola_Act3-NavBar2</title>
+    <link rel="stylesheet" href="NAV 1 CSS.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="#home"><button>Home</button></a>
+        
+         <div class="dropdown">
+          <a href="#Product"><button class="dropbtn">Tutorials
+             <i class="fas fa-caret-down"></i>
+           </button></a>
+           <a href="#Articles"><button>Articles</button></a>
+           <a href="Inspiration"><button>Inspiration</button></a>
+           <div class="dropdown-content">
+             <a href="#">Photoshop</a>
+           <div class="nested-dropdown dropdown-content">
+           <a href="#">Web  Designer</a>
+           <a href="#">HTML - CSS</a>
+           </div>
+             <a href="#">Illustration</a>
+             </div>
+             
+         </div> 
+       </div>
+       </div>
+       </body>
+       </html>
+    </body>
